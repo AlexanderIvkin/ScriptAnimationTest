@@ -6,11 +6,11 @@ public class Move : MonoBehaviour
 
     private void Start()
     {
-        
+
     }
 
     private void Update()
     {
-        transform.Translate(_speed * Time.deltaTime * transform.forward);
+        transform.Translate(_speed * Time.deltaTime * Vector3.forward, Space.Self);
     }
 }
