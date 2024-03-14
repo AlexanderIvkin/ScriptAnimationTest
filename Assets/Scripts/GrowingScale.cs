@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Scale : MonoBehaviour
+public class GrowingScale : MonoBehaviour
 {
     [SerializeField] private float _speed = 0f;
     private float _offset;
